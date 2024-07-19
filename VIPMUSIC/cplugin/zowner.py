@@ -7,7 +7,7 @@ from VIPMUSIC.mongo.afkdb import LOGGERS as OWNERS
 from VIPMUSIC.utils.database import add_served_chat_clone, get_assistant
 
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("nohfdg") & filters.group)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/4b52da6d880cbb199298a.jpg",
@@ -24,7 +24,7 @@ async def repo(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("noddcvg") & filters.group)
 async def help(client: Client, message: Message):
 
     await message.reply_photo(
@@ -42,7 +42,7 @@ async def help(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("repo") & filters.private)
+@Client.on_message(filters.command("hjrdvbnj") & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/4b52da6d880cbb199298a.jpg",
@@ -85,7 +85,7 @@ async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TG_VC_BOT`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @DeathMusicrobot`**"
         )
         return
 
