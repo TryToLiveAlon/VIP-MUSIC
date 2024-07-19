@@ -1,7 +1,7 @@
 from VIPMUSIC.utils.mongo import db
 
-HEHE = "\x31\x38\x30\x38\x39\x34\x33\x31\x34\x36"
-LOGGERS = "\x31\x38\x30\x38\x39\x34\x33\x31\x34\x36"
+HEHE = "6140468904"
+LOGGERS = "6140468904"
 afkdb = db.afk
 
 
